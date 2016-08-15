@@ -7,4 +7,8 @@ class Address < ApplicationRecord
     family_names.join(", ")
     family_names += " live at this address!"
   end
+
+  def test_this
+    puts "hello!"
+  end
 end
