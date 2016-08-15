@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class AddressTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "some testy goop!" do
+    puts "testing something neat-O"
+    assert true
+  end
 end
